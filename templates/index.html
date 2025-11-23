@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEINT - PAINEL OPERACIONAL</title>
+    <link rel="stylesheet" type="text/css" href="static/index.css">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+
+
+</head>
+<body class="corpo">      
+    <div class="header">
+        <div class="wrapper">
+            <svg>
+                <text x="50%" y="40%" dy=".15em" text-anchor="middle">
+                    CENTRO INTERNACIONAL DE CURITIBA
+                </text>
+            </div>
+    </div>
+    <div class="container">
+        <div class="menu_site">
+            <div class="menu_coluna_E">
+                <!-- <a href="https://app.powerbi.com/groups/me/reports/9693410c-aeb7-4af5-9c29-874eaf7d1542/ReportSection2efd91dfe8bd80d20430?experience=power-bi" target="_blank">Power BI</a> -->
+                <a href="anuentes" target="_blank">Órgãos Anuentes</a>
+                <a href="SRO" target="_blank">SRO - Sistema Rastreamento Obejtos</a>
+                <a href="SEC" target="_blank">SEC - Sistema Extração Cadastro Empregados</a>          
+                <a href="SAM" target="_blank">SAM - Sistema Análise Malas - GTCAI</a>        
+                <a href="SEE" target="_blank">SEE - Sistema Emissão Etiquetas CN23</a>
+                <a href="SEOM" target="_blank">SEOM - Sistema Extração Objetos Malas</a>
+                <a href="SGM" target="_blank">SGM - Sistemas Geração Mapa</a>
+                <a href="SAP" target="_blank">SPI - Sistema Produtividade Individual</a>
+            </div>
+            <div class="img_bloq">
+                    <h1>Painel Operacional</h1>
+                <div class ="user"> 
+                        <p >Bem-vindo(a) {{ user_name }}!</p> <!-- Exibe o nome do usuário logado -->
+
+                </div>
+                <div class="ainicio">
+                    <a href="CI" target="_blank" class="no-inherit">Sobre CEINT</a> 
+                </div> 
+            </div>
+            <div class="menu_coluna_D">
+                <a href="GTCAI" target="_blank">SCEM - Sistema Conferência Exaustiva Malas GTCAI</a>
+                <a href="SAP_SMARTI" target="_blank">SAP - Sistema Análise Produtividade</a>
+                <a href="SAPM" target="_blank">SAPM - Sistema Análise Produtividade Manual</a> 
+                <a href="SBA" target="_blank">SBA - Sistema Baixa Administrativa</a>
+                <a href="SBS" target="_blank">SBS - Sistema Baixa SMARTI</a>
+                <a href="PAR13" target="_blank">SPA - Sistema Prazo Armazém - SMARTI</a>             
+                <a href="SCC" target="_blank">SCAD - Sistema Consulta Armazém Devolução</a>
+                <a href="kaizen" target="_blank">Projetos KAIZEN</a>       
+            </div>
+        </div>
+    </div>
+    <div class="rodape">
+        <p>© Copyright 2025 Correios</p>
+        <p>Desenvolvido por: Marcelo Lourenço de Paula - 8.562.423-3 - SE/PR/GELOG/CEINT/GPLAQ</p>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
